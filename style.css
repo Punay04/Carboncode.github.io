@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+    background-color:rgb(247, 203, 210);
+}
+
+.navcontainer{
+    width: 100vw;
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav{
+    width: 100%;
+    overflow-x: 0;
+    padding: 2rem;
+}
+#navlist{
+    width: 100%;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    padding: 10px;
+    list-style-type: none;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navlogo{
+    font-size: 2.8rem;
+    color: rgb(156, 214, 70);
+    font-family: fantasy;
+}
+a{
+    text-decoration: none;
+    font-family: fantasy;
+}
+#navitems{
+    display: flex;
+    gap: 30px;
+}
+
+.footerbox{
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+    
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+}
+.footerbox p{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family :fantasy;
+}
+
+.contentbox{
+    width: 70%;
+    margin: auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 100px brown;
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: darkgray;
+    box-shadow: 1px 1px 50px black;
+}
+.leftbox h2{
+    font-size: 2rem;
+    font-family :fantasy;
+}
+.leftbox p{
+    font-size: 1.3rem;
+    font-family :fantasy;
+    
+}
+
+.rightbox img{
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    transition: all 0.6s 0s;
+}
+
+.rightbox img:hover{
+    transform: scale(1.1);
+}
+
+.rightbox{
+    position: relative;
+    box-shadow: 1px 1px 20px black;
+}
+
+.profile{
+    margin-left: 245px;
+}
